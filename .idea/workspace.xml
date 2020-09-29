@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1c0136-a92f-4ddc-ba00-e6fb419a42e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +33,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/i18n" />
-      <recent name="$PROJECT_DIR$/img/icon" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/fonts/font_awesome/webfonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/assets/i18n" />
+      <recent name="$PROJECT_DIR$/img/icon" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +54,7 @@
       <workItem from="1601200501908" duration="1589000" />
       <workItem from="1601202147024" duration="26150000" />
       <workItem from="1601370779577" duration="688000" />
-      <workItem from="1601378866878" duration="567000" />
+      <workItem from="1601378866878" duration="719000" />
     </task>
     <servers />
   </component>
