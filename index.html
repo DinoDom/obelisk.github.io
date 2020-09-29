@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--// Meta Tags //-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>首页-Butterfly Protocol</title>
+	<!--// Icons //-->
+	<link rel="stylesheet" href="fonts/flat_icons/flaticon.css">
+	<link rel="stylesheet" href="fonts/font_awesome/css/all.css">
+	<!--// Google Fonts //-->
+	<link
+			href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+			rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap&subset=latin-ext"
+	      rel="stylesheet">
+	<!--// FrameWorks //-->
+	<link rel="stylesheet" href="css/frameworks.css">
+	<!--// Theme Main Js //-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#fixedNavbar" data-offset="0"
+      style="background:url(img/bg.png) center/auto 100% no-repeat border-box border-box">
+<!--// Page Wrapper Start //-->
+<div class="page-wrapper" id="home">
+	<!-- Header Start -->
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" alt="Logo">
+				</a>
+				<!--// .logo //-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixedNavbar"
+				        aria-controls="fixedNavbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="togler-icon-inner">
+						<span class="line-1"></span>
+						<span class="line-2"></span>
+						<span class="line-3"></span>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse main-menu justify-content-end" id="fixedNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active i18n" href="#" data-scroll-nav="0" name="nav_home"></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link i18n" href="./assets/white-paper.pdf" target="_Blank" name="nav_white_paper"></a>
+						</li>
+						<!--						<li class="nav-item">-->
+						<!--							<a class="nav-link" href="#" data-scroll-nav="3">社区</a>-->
+						<!--						</li>-->
+						<li class="nav-item">
+							<a class="nav-link" href="https://github.com/Obelisk-One" target="_Blank">Github</a>
+						</li>
+						<li class="nav-item">
+<!--							<a class="nav-link" href="#" target="_Blank">-->
+<!--								<span class="i18n" name="language"></span>-->
+<!--							</a>-->
+							<a id="en" class="nav-link" href="javascript:changeLanguage('en');">En</a>
+							 /
+							<a id="zh_cn" class="nav-link" href="javascript:changeLanguage('zh_cn');" style="margin-left: 0">中文</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!--// .navbar-nav //-->
+		</div>
+		<!--// .container //-->
+	</header>
+	<!--// Header End  //-->
+
+	<!--// Hero Section Start //-->
+	<section class="hero-section" data-scroll-index="0">
+		<div class="container h-100">
+			<div class="row align-items-center" style="height:72%!important">
+				<div class="col-lg-4 col-md-10 col-sm-12">
+					<h1 class="hero-section-title wow fadeInUp i18n" data-wow-delay="0.2s" name="header_protocol"></h1>
+					<p class="hero-section-subtitle wow fadeInUp i18n" data-wow-delay="0.3s" name="header_subtitle"></p>
+					<a href="javascript:void(0);" class="default-outline-btn wow fadeInUp" data-wow-delay="0.4s" id="downloadBtn">
+						learn more<i class="fa fa-caret-right ml-2"></i>
+					</a>
+					<!--					<a href="javascript:void(0);" class="default-video-btn popup-youtube wow fadeInUp" data-wow-delay="0.5s"><i class="fa fa-play"></i></a>-->
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-8 hero-image text-right wow fadeInRight">
+					<img src="img/hero_image.png" alt="Hero image" class="img-jump" style="max-width:50%;height:auto;">
+				</div>
+				<!--// .col //-->
+			</div>
+			<!--// .row //-->
+			<div class="row align-items-center header-card i18n" name="header_content"></div>
+		</div>
+		<!--// .container //-->
+		<!--		<a href="#" data-scroll-nav="1" class="down-scroll">-->
+		<!--&lt;!&ndash;			<i class="fa fa-arrow-down"></i>&ndash;&gt;-->
+		<!--			<img src="./img/icon_scroll_down.png">-->
+		<!--		</a>-->
+		<!--// .down-scroll //-->
+	</section>
+	<!--// Hero Section End  //-->
+
+	<!--// Services Section Start //-->
+
+
+	<section class="services section-padding" data-scroll-index="1" id="services-area">
+		<div class="container">
+			<!--// .row //-->
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.1s">
+					<div class="services-item">
+						<div class="services-icon services-blue-icon system1"></div>
+						<div class="services-body">
+							<h5 class="i18n" name="service_title1"></h5>
+							<p class="i18n" name="service_content1"></p>
+						</div>
+					</div>
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.3s">
+					<div class="services-item">
+						<div class="services-icon system2"></div>
+						<div class="services-body">
+							<h5 class="i18n" name="service_title2"></h5>
+							<p class="i18n" name="service_content2"></p>
+						</div>
+					</div>
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.3s">
+					<div class="services-item">
+						<div class="services-icon system3"></div>
+						<div class="services-body">
+							<h5 class="i18n" name="service_title3"></h5>
+							<p class="i18n" name="service_content3"></p>
+						</div>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+			<!--// .row //-->
+		</div>
+		<!--// .container //-->
+	</section>
+	<!--// Services Section End //-->
+
+	<!--// About Section Start //-->
+	<section class="net section-padding" data-scroll-index="2" id="net-area">
+		<div class="container">
+
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="section-heading">
+						<h2 class="section-title i18n" name="net_title"></h2>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.1s">
+					<div class="net-item">
+						<p class="i18n" name="net_content1"></p>
+					</div>
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.3s">
+					<div class="net-item">
+						<p class="i18n" name="net_content2"></p>
+					</div>
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-4 col-md-6 col-sm-6 align-items-center services-resp-margin wow fadeInUp"
+				     data-wow-delay="0.3s">
+					<div class="net-item">
+						<p class="i18n" name="net_content3"></p>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+			<!--// .row //-->
+			<div class="row align-items-center justify-content-center">
+				<img src="img/icon/icon_built.png" style="width: 260px;height: 30px; margin-top: 50px">
+			</div>
+			<!--// .row //-->
+		</div>
+		<!--// .container //-->
+	</section>
+	<!--// About Section End //-->
+
+	<!--// Features Section Start //-->
+	<section id="features" class="features-section section-padding" data-scroll-index="3">
+		<div class="features-container">
+			<div class="container">
+				<div class="row justify-content-center mb-5">
+					<div class="col-lg-7">
+						<div class="section-heading">
+							<h2 class="section-title features i18n" name="app_title"></h2>
+						</div>
+					</div>
+					<!--// .col //-->
+				</div>
+
+				<div class="row align-items-center justify-content-center">
+
+					<div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.1s">
+						<div class="features-item">
+							<div class="features-icon services-blue-icon feature1"></div>
+							<div class="features-body">
+								<h5 class="i18n" name="app_subtitle1"></h5>
+								<p class="i18n" name="app_content1"></p>
+							</div>
+						</div>
+					</div>
+					<!--// .col //-->
+					<div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+						<div class="features-item">
+							<div class="features-icon feature2"></div>
+							<div class="features-body">
+								<h5 class="i18n" name="app_subtitle2"></h5>
+								<p class="i18n" name="app_content2"></p>
+							</div>
+						</div>
+					</div>
+					<!--// .col //-->
+					<div class="col-lg-4 col-md-6 col-sm-6 services-resp-margin wow fadeInUp" data-wow-delay="0.3s">
+						<div class="features-item">
+							<div class="features-icon feature3"></div>
+							<div class="features-body">
+								<h5 class="i18n" name="app_subtitle3"></h5>
+								<p class="i18n" name="app_content3"></p>
+							</div>
+						</div>
+					</div>
+					<!--// .col //-->
+
+				</div>
+
+			</div>
+			<!--// .container //-->
+		</div>
+	</section>
+	<!--// Features Section Start //-->
+
+	<!--// Applications Section Start //-->
+	<section class="section-padding" data-scroll-index="4">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="section-heading">
+						<h2 class="section-title i18n" name="app_type_title"></h2>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+			<!--// .row //-->
+
+			<!--//.tabels Start //-->
+			<div class="row justify-content-center align-items-center app-item wow fadeInUp" data-wow-delay="0.1s">
+				<div class="col-4 col-sm-3 title i18n" name="app_type1"><img src="img/icon/icon_app1.png"></div>
+				<div class="col-3 col-sm-3 clip i18n" name="app_item1"></div>
+				<div class="col-3 col-sm-3 clip i18n" name="app_item2"></div>
+				<div class="col-3 col-sm-3 clip i18n" name="app_item3"></div>
+			</div>
+			<div class="row justify-content-center align-items-center app-item wow fadeInUp" data-wow-delay="0.3s">
+				<div class="col-3 col-sm-3 title i18n" name="app_type2"></div>
+				<div class="col-3 col-sm-3 clip i18n" name="app_item4"></div>
+				<div class="col-3 col-sm-3 clip i18n" name="app_item5"></div>
+				<div class="col-3 col-sm-3 witting i18n" name="app_item_waiting"></div>
+			</div>
+			<div class="row justify-content-start align-items-center app-item wow fadeInUp" data-wow-delay="0.5s">
+				<div class="col-3 col-sm-3 title i18n" name="app_type3"></div>
+				<div class="col-3 col-sm-3 witting i18n" name="app_item_waiting"></div>
+			</div>
+			<!--//.tabels End //-->
+
+		</div>
+		<!--// .container //-->
+	</section>
+	<!--// Screenshots Section End //-->
+
+
+	<!--// Download Section Start //-->
+	<section class="download-wrap section-padding" data-speed="0.2s">
+		<div class="download-section-bg"></div>
+		<div class="container">
+
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="section-heading">
+						<h2 class="section-title down i18n" name="download_title"></h2>
+						<p class="section-subtitle i18n" name="download_subtitle"></p>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+
+			<div class="row justify-content-between align-items-center download-content" style="max-width: 60%">
+				<div class="col-lg-6 download-image wow slideInLeft">
+					<img src="img/download-img.png" alt="" class="img-fluid img-jump">
+				</div>
+				<!--// .col //-->
+				<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+					<p style="margin: 20px 0" class="i18n" name="download_content1"></p>
+					<p style="margin: 20px 0" class="i18n" name="download_content2"></p>
+					<p style="margin: 20px 0" class="i18n" name="download_content3"></p>
+					<div class="d-flex justify-content-start mt-lg-5">
+						<div class="download-button google"></div>
+						<div class="download-button apple"></div>
+					</div>
+				</div>
+				<!--// .col //-->
+			</div>
+			<!--// .row //-->
+		</div>
+		<!--// .container //-->
+	</section>
+	<!--// Download Section End //-->
+
+
+	<!--// Footer Section Start //-->
+	<footer class="footer">
+		<!--		<div class="footer-top">-->
+		<!--			<div class="container">-->
+		<!--				<div class="row">-->
+		<!--					<div class="footer-widget col-lg-3 col-md-6 col-sm-6">-->
+		<!--						<div class="footer-box">-->
+		<!--							<h5 class="footer-title">关于我们</h5>-->
+		<!--							<p>-->
+		<!--								Appinocks is the Landing Page Template for the Mobile App. Discover the unique features of Appinocks-->
+		<!--							</p>-->
+		<!--							<div class="footer-social-links">-->
+		<!--								<a href="#0"><i class="mdi mdi-facebook"></i></a>-->
+		<!--								<a href="#0"><i class="mdi mdi-twitter"></i></a>-->
+		<!--								<a href="#0"><i class="mdi mdi-dribbble"></i></a>-->
+		<!--								<a href="#0"><i class="mdi mdi-instagram"></i></a>-->
+		<!--							</div>-->
+		<!--						</div>-->
+		<!--					</div>-->
+		<!--					&lt;!&ndash;// .col //&ndash;&gt;-->
+		<!--					<div class="footer-widget col-lg-3 col-md-6 col-sm-6">-->
+		<!--						<div class="footer-box">-->
+		<!--							<h5 class="footer-title">快速链接</h5>-->
+		<!--							<ul class="footer-links">-->
+		<!--								<li>-->
+		<!--									<a href="#0">首页</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">社区</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">白皮书</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">GITHUB</a>-->
+		<!--								</li>-->
+		<!--							</ul>-->
+		<!--						</div>-->
+		<!--					</div>-->
+		<!--					&lt;!&ndash;// .col //&ndash;&gt;-->
+		<!--					<div class="footer-widget col-lg-3 col-md-6 col-sm-6">-->
+		<!--						<div class="footer-box">-->
+		<!--							<h5 class="footer-title">其他链接</h5>-->
+		<!--							<ul class="footer-links">-->
+		<!--								<li>-->
+		<!--									<a href="#0">Team</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">404</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">Terms</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">Support</a>-->
+		<!--								</li>-->
+		<!--								<li>-->
+		<!--									<a href="#0">Pricing</a>-->
+		<!--								</li>-->
+		<!--							</ul>-->
+		<!--						</div>-->
+		<!--					</div>-->
+		<!--					&lt;!&ndash;// .col //&ndash;&gt;-->
+		<!--					<div class="col-md-6 col-sm-6 footer-widget col-lg-3">-->
+		<!--						<div class="footer-box">-->
+		<!--							<h5 class="footer-title">联系信息</h5>-->
+		<!--							<p>50 North Peg Shop Court Beachwood, Washington DC</p>-->
+		<!--							<ul class="contact-info-footer">-->
+		<!--								<li><i class="mdi mdi-phone"></i>+086 - 123 456 78 9</li>-->
+		<!--								<li><i class="mdi mdi-email"></i>example@gmail.com</li>-->
+		<!--								<li><i class="mdi mdi-fax"></i>+086 - 123 456 78 00</li>-->
+		<!--							</ul>-->
+		<!--						</div>-->
+		<!--					</div>-->
+		<!--					&lt;!&ndash;// .col //&ndash;&gt;-->
+		<!--				</div>-->
+		<!--				&lt;!&ndash; .row &ndash;&gt;-->
+		<!--			</div>-->
+		<!--			&lt;!&ndash;// .container //&ndash;&gt;-->
+		<!--		</div>-->
+		<!--// .footer-top //-->
+		<div class="copyright">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-9">
+						<p class="text-center">Copyright &copy; 2020. All rights reserved.</p>
+					</div>
+				</div>
+				<!--// .row //-->
+			</div>
+			<!--// .container //-->
+		</div>
+		<!--// .copyright //-->
+	</footer>
+
+	<!--// Footer Section Start //-->
+	<!--	<a href="#0" class="scroll-top-btn" data-scroll-goto="0">-->
+	<!--		<i class="fa fa-arrow-up"></i>-->
+	<!--	</a>-->
+	<!--// Scroll Top //-->
+
+		<div class="preloader-wrap">
+			<div class="preloader-inner">
+				<div class="sk-circle"></div>
+				<div class="spinner">
+					<div class="rect1"></div>
+					<div class="rect2"></div>
+					<div class="rect3"></div>
+					<div class="rect4"></div>
+					<div class="rect5"></div>
+				</div>
+			</div>
+		</div>
+	<!--// Preloader  //-->
+
+</div>
+<!--// Page Wrapper End //-->
+
+<!--// jQuery v3.4.1 //-->
+<script src="js/jquery.js"></script>
+<!--// Plugins Js //-->
+<script src="js/plugins.js"></script>
+<!--// Main Js //-->
+<script src="js/main.js"></script>
+<script src="js/jquery.i18n.properties.js"></script>
+<script src="js/language.js"></script>
+<script type="text/javascript">
+	$(function () {
+		loadLanguage();
+	});
+</script>
+
+</body>
+</html>
