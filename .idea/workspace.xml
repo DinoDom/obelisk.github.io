@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1c0136-a92f-4ddc-ba00-e6fb419a42e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/obelisk_lightpaper.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/obelisk_lightpaper_en.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i18n/Messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assets/i18n/Messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i18n/Messages_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/assets/i18n/Messages_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/white-paper.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/language.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +34,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/fonts/font_awesome/webfonts" />
     </key>
@@ -56,7 +62,7 @@
       <workItem from="1601200501908" duration="1589000" />
       <workItem from="1601202147024" duration="26150000" />
       <workItem from="1601370779577" duration="688000" />
-      <workItem from="1601378866878" duration="1137000" />
+      <workItem from="1601378866878" duration="2896000" />
     </task>
     <servers />
   </component>
@@ -64,13 +70,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2378" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601438347857">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2378" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1601438347857" />
     <state x="2141" y="179" key="SettingsEditor" timestamp="1601222417681">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2141" y="179" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1601222417681" />
+    <state x="1780" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601437960765">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1780" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1601437960765" />
     <state x="2341" y="172" width="598" height="735" key="find.popup" timestamp="1601232741864">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2341" y="172" width="598" height="735" key="find.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1601232741864" />
+    <state x="2370" y="459" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601438345275">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2370" y="459" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1601438345275" />
   </component>
 </project>

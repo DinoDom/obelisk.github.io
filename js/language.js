@@ -28,6 +28,8 @@ function loadLanguage(language) {
 		callback: function () {
 			$('.i18n').each(function (i) {
 				$(this).html($.i18n.prop($(this).attr('name')));
+				if ($(this).attr('name') === 'nav_white_paper')
+					$(this).attr('href', $.i18n.prop('light_paper'));
 			});
 		}
 	});
